@@ -2,3 +2,6 @@
 
 mod app;
 pub use app::TemplateApp;
+
+mod hashing;
+pub use hashing::hash_sha256;
